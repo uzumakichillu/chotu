@@ -24,7 +24,8 @@ export default class VideoRecommendations1 extends Component{
     }
     //fetch data from YouTube with keywords as subjects
     async componentDidMount() {
-        const videoDataResponse = await UrlDataService.getVideos(this.state.subjects)
+        const videoDataResponse = await UrlDataService.getVideos(JSON.parse(localStorage.getItem('subjects')))
+        this.setState({videos:JSON.parse(localStorage.getItem('subjects'))})
         const responseData = videoDataResponse.data.success
         this.setState({videos:responseData, loading:false})
         window.addEventListener("scroll", this.handleScroll);
