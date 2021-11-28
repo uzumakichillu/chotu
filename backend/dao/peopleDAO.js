@@ -93,10 +93,7 @@ export default class PeopleDAO {
             subjectQuery = subjectQuery.substring(0,subjectQuery.length-3)
 
             const instance =  axios.create({
-                baseURL : `https://youtube.googleapis.com/youtube/v3/search?&key=${API_key}\
-                &part=snippet&eventType=completed&maxResults=50&order=relevance&q=${subjectQuery}&safeSearch=strict&type=video\
-                &videoCaption=closedCaption&videoDefinition=standard&videoDimension=2d&videoDuration=any&videoEmbeddable=true\
-                &videoLicense=any&videoType=any`,
+                baseURL : `https://youtube.googleapis.com/youtube/v3/search?&key=${API_key}&part=snippet&eventType=completed&maxResults=50&order=relevance&q=${subjectQuery}&safeSearch=strict&type=video&videoCaption=closedCaption&videoDefinition=standard&videoDimension=2d&videoDuration=any&videoEmbeddable=true&videoLicense=any&videoType=any`,
                 
                 headers : {
                     "Content-type" : "application/json"
