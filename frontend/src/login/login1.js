@@ -77,10 +77,13 @@ function Login1(props) {
 
                 localStorage.setItem('email',email)
                 localStorage.setItem('name',response.data.name)
+                localStorage.setItem('subjects',JSON.stringify(response.data.subjects))
                 setName(response.data.name)
                 setEmail(response.data.email) 
                 setSubjects(response.data.subjects)
                 console.log(response.data)
+                console.log('########')
+                console.log(localStorage.getItem('subjects'))
                 props.history.push('/api/getVideos')
             
             })
