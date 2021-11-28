@@ -1,0 +1,84 @@
+.screen__full {
+    width: 50%;
+    height: 100vh;
+    padding-left: 10%;
+}
+.row {
+    background: #211f1f;
+    display: table-row;
+}
+.my-webcam-class {
+    /* display: table-row; */
+    align-items: center;
+}
+#row2 {
+    display: table-row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar__custom {
+    padding-left: 1%;
+}
+
+.navbar__items {
+    margin-left: auto;
+    padding-right: 1%;
+    font: 40px Sans-serif solid white;
+    justify-content: space-between;
+}
+
+.startMeet__body {
+    display: flex;
+}
+
+.meetStartOptions__body {
+    flex: 0.5;
+    margin-left: 4%;
+    margin-top: 10%;
+    
+}
+
+.calendarDetails__body {
+    display: flex;
+    flex: 0.5;
+}
+
+.text1 {
+    font: 40px Courier solid black;
+}
+
+.text2 {
+    font: 10px sans-serif solid grey;
+}
+
+.float-container {
+    border: 3px solid #fff;
+}
+
+.float-child {
+    width: 30%;
+    float: left;
+    /* border: 2px solid red; */
+}  
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+.videoElement
+{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    object-fit: cover;
+    
+}
