@@ -11,7 +11,6 @@ We also provide a scheduler which pairs students on the preference of their subj
 **What do teachers have in store?**
 The pictorial representation of the daily interactions and overall figures of last 30 days are available.Teachers can view this information and plan ways to increase the interest and involvement of students in respective subjects.
 
-***
 
 ## Tech Stack
 
@@ -20,7 +19,7 @@ The pictorial representation of the daily interactions and overall figures of la
 * Database : MongoDB (v4.1.4)
 * Platform : Node.js (v16.13.0)
 
-***
+
 
 **Please ensure the following steps first**
 
@@ -42,7 +41,7 @@ The pictorial representation of the daily interactions and overall figures of la
 
 * The MongoDB URI is provided in .env file currently for testing purpose.
 
-***
+
 
 ## Steps to run
 
