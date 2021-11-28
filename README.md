@@ -1,6 +1,5 @@
 # Microsoft Engage 2021
 
-***
 
 The PEERify app has been developed with the aim to solve one of the biggest problems that has arisen in the pandemic for the student community i.e., the lack of interaction among the students and the distractions online mode has caused. 
 
